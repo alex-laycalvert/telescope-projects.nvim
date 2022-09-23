@@ -35,10 +35,14 @@ telescope.setup({
         }
     }
 })
+
+telescope.load_extension('projects')
 ```
 
 `projects_dir` is the location where all of your projects are stored. A projects is a
 a directory within the `projects_dir`. Using `~/` is allowed.
+
+`TODO`: Allow users to add multiple directories.
 
 ## Usage
 
