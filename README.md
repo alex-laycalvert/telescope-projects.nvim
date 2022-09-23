@@ -43,6 +43,7 @@ telescope.load_extension('projects')
 a directory within the `projects_dir`. Using `~/` is allowed.
 
 `TODO`: Allow users to add multiple directories.
+`TODO`: Allow users to specify finder theme.
 
 ## Usage
 
