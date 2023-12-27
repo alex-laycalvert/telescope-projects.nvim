@@ -27,7 +27,7 @@ M.projects = function ()
     for _, v in pairs(file_list) do
         local project_name = string.gsub(v, projects_dir .. '/', '')
         project_name = string.match(project_name, '^.+/')
-        if added_files[project_name] == nil then
+        if project_name ~= nil and added_files[project_name] == nil then
             added_files[project_name] = project_name
             results[i] = project_name
             i = i + 1
